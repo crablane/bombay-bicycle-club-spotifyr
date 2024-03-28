@@ -48,7 +48,6 @@ Finally, let’s plot all songs in one graph, coloured by the album they are on:
 ![scatter-Alltracks](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/e8fff6fa-ee0a-4c12-af5e-3a41ab4ee81b)
 
 Pretty! But given the misplacements mentioned above (and based on your favourite Bombay Bicycle Club album you might find other atrocities that stand out to you) pretty uninformative if you really wanted to know how a song or an album sounds, right? I guess there’s just one way to find that out: give it a listen, it’s worth it, I promise! 
-Limitations
 
 ## Limitations
 The biggest limitation of the analysis is that we don’t know what’s behind the measures, especially the measurement of valence. What exactly makes a song sound positive or negative according to Spotify? And if it clashes with the opinion of a self-proclaimed expert on all things Bombay Bicycle Club (me), is it a valid measure for valence at all? The answers to these questions may not have a big real-life impact, but as far as I am concerned, I don’t want Spotify to play me _To The Bone_ rather than _Shuffle_ when I need to be hyped up for an interview or something! So bottom line: Do make your own playlists! 
