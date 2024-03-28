@@ -2,7 +2,7 @@
 Plotting all Bombay Bicycle Club tracks in an energy/valence-matrix
 
 ## Motivation
-I have always had strong feelings about music. When I was twelve or so, my pen-pal Julia and I fell apart, because she turned out to be an Eminem-Fan and I wasn’t – we both felt that signaled something important about each others’ character. Later, I hosted my own radio show at our unis’ radio station and I will admit I used this as a way to play whatever music I felt needed to be heard. I have grown more tolerant over the years, but still, nothing hypes me up or makes me cry like a good song. 
+I have always had strong feelings about music. At the ripe age of eleven, my pen-pal Julia and I fell apart, because she turned out to be an Eminem-Fan and I wasn’t – we both felt that signaled something important about each others’ character. Later, I hosted my own radio show at our unis’ radio station and I will admit I used this as a way to play whatever music I felt needed to be heard. I have grown more tolerant over the years, but still, nothing hypes me up or makes me cry like a good song. 
 
 So when I heard that there is an R-package that allows you to download and analyze data from Spotify, I knew I had to do _something_ with it. Every song that gets uploaded to Spotify is processed by an algorithm that determines a songs’ charachteristics, for example how danceable it is, whether its an acoustic piece or not, whether it includes speech (like a podcast) how loud it is or whether it’s a live performed track.
 
@@ -13,16 +13,16 @@ Among those algorithmically determined characteristics are measures of a songs e
 So with the measure given, we are able to pinpoint exactly which emotion a song conveys. 
 
 ## Data and Measurement
-What could be better than analyzing your favourite bands music? I have first heard of **Bombay Bicycle Club** ca. 2010 and have been a fan ever since. Their music is perfectly suited to this project not only because I like it and I know it well enough to make a judgement about how good Spotify’s measurement is, but also because their music covers a broad range of emotions and musical styles. There are the rough, angry songs from their debut album, upbeat indie club-hits like _Carry Me_, _Luna_ and _Shuffle_, there is a whole acoustic album (and some more acoustic versions of songs over the years), the ecclectic sounds on their most recent album and heartfelt ballads. 
+What could be better than analyzing your favourite bands music? I first heard of **Bombay Bicycle Club** ca. 2010 and have been a fan ever since. Their music is perfectly suited to this project not only because I like it and I know it well enough to make a judgement about how good Spotify’s measurement is, but also because their music covers a broad range of emotions and musical styles. There are the rough, angry songs from their debut album, upbeat indie club-hits like _Carry Me_, _Luna_ and _Shuffle_, there is a whole acoustic album (and some more acoustic versions of songs over the years), the ecclectic sounds on their most recent album and heartfelt ballads. 
 
-I used the SpotifyR-Package and the _get_track_audio_features_ command to download the information on energy and valence of all Bombay Bicycle Club songs that were released on an album or a single. All further analyses are conducted in Stata18. Before we can start plotting the songs, the data have to be cleaned and prepared. Since many songs are released on an album and on a single, duplicate songs have to be removed before the analysis. I further excluded all Remixes of Bombay Bicycle Club Songs by other artists and Live-versions of songs. 
+I used the Spotifyr-Package and the _get_track_audio_features_ command to download the information on energy and valence of all Bombay Bicycle Club songs that were released on an album or a single. All further analyses are conducted in Stata18. Before we can start plotting the songs, the data have to be cleaned and prepared. Since many songs are released on an album and on a single, duplicate songs have to be removed before the analysis. I further excluded all Remixes of Bombay Bicycle Club Songs by other artists and Live-versions of songs. 
 
 Without further ado, let’s get to the fun part and look at where in that matrix each song falls:
 
 ## Results
 ![scatter-IHTBBISTL](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/30e1df99-84c0-4815-b423-4db4b0886a71)
 
-The debut Album I Had The Blues But I Shook Them Loose has a lot of songs that are energetic and sound more negative, thus landing in the angry/tense area of the graph. So far, I agree, however this is probably the album I have listened to the least, so others may correct me. 
+The debut Album _I Had The Blues But I Shook Them Loose_ has a lot of songs that are energetic and sound more negative, thus landing in the angry/tense area of the graph. So far, I agree, however this is probably the album I have listened to the least, so others may correct me. 
 
 The band took an unexpected turn with their acoustic follow-up album, _Flaws_. This is most likely reflected in the relatively low energy of songs. However the album covers a broad range of emotions, from sad songs like _Flaws_ to calm and relaxed songs like _Fairytale Lullaby_ and the more upbeat _Rinse Me Down_ or _Ivy & Gold_. Personally, I feel that _Swansea_ is a little misplaced and should be more in the calm and relaxed area of the graph, but that is only a minor disagreement.
  
@@ -35,7 +35,7 @@ I strongly disagree with the placement of some of the songs though. _Shuffle_ �
 ![scatter-SLSYT](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/0a269273-d04e-4121-adef-d60556cbf79f)
 ![scatter-EEHGW](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/d7965a88-3e84-46ff-aca3-11f414d2d489)
 
-The latest album, _My Big Day_, breaks that pattern: It is the most joyful, up-beat album according to Spotify and the most concise one in terms of the emotions conveyed! Yet again, I don’t agree with all of it. Look at where _Meditate_ and _Turn the World on_ are placed: I would say that _Meditate_ sounds both more energetic and less positive than _Turn The World O_n, which would put it into the top left quarter of the graph, above and left to _TTWO_ on. And _I Want To Be Your Only Pet_ is placed right in terms of energy – it’s an absolute banger! – but does it sound more positive than _Heaven_!? Or _Home By Now_? Or, dare I say, _Shuffle_!? No! 
+The latest album, _My Big Day_, breaks that pattern: It is the most joyful, up-beat album according to Spotify and the most concise one in terms of the emotions conveyed! Yet again, I don’t agree with all of it. Look at where _Meditate_ and _Turn the World on_ are placed: I would say that _Meditate_ sounds both more energetic and less positive than _Turn The World On_, which would put it into the top left quarter of the graph, above and left to _TTWO_ on. And _I Want To Be Your Only Pet_ is placed right in terms of energy – it’s an absolute banger! – but does it sound more positive than _Heaven_!? Or _Home By Now_? Or, dare I say, _Shuffle_!? No! 
 
 ![scatter-MBD](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/7442eed4-2443-42c8-8f1b-c3612f1182c8)
 
