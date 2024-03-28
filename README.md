@@ -56,3 +56,6 @@ The biggest limitation of the analysis is that we don’t know what’s behind t
 ## Conclusion
 Besides my disagreement with the measurement this was a fun project and I might do some more stuff with the data! Hope you enjoyed.
 
+![BBC-tracks](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/901a79ed-fed9-4162-84f5-03339fb237bc)
+
+
