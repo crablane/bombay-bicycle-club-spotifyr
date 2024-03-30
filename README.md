@@ -30,14 +30,15 @@ The band took an unexpected turn with their acoustic follow-up album, _Flaws_. T
  
 ![scatter-Flaws](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/366b3198-92cf-4e66-9d88-5ac3726947f0)
 
-<div align="justify"> The next three albums _A Different Kind of Fix_, _So Long, See You Tomorrow_ and _Everything Else Has Gone Wrong_ all have a similar distribution of songs, with a few “sad” songs and the majority of tracks falling into the upper two quarters of the graph. Interestingly none of the songs fall into the calm/relaxed/content area. 
-I strongly disagree with the placement of some of the songs though. _Shuffle_ – to me, and to many others – is about the happiest song that the band has ever written. That piano sample, wherever it came from, is pure joy. It should be on the very right side of that graph, indicating a very positive sound, but according to Spotify, it’s… not. Similarly, _Home by Now_ and _Luna_ are happy songs for me.  </div>
+
+The next three albums _A Different Kind of Fix_, _So Long, See You Tomorrow_ and _Everything Else Has Gone Wrong_ all have a similar distribution of songs, with a few “sad” songs and the majority of tracks falling into the upper two quarters of the graph. Interestingly none of the songs fall into the calm/relaxed/content area. 
+I strongly disagree with the placement of some of the songs though. _Shuffle_ – to me, and to many others – is about the happiest song that the band has ever written. That piano sample, wherever it came from, is pure joy. It should be on the very right side of that graph, indicating a very positive sound, but according to Spotify, it’s… not. Similarly, _Home by Now_ and _Luna_ are happy songs for me.
 
 ![scatter-Fix](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/3ed44b81-3d7d-4db9-beb2-6ca1cda81492)
 ![scatter-SLSYT](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/0a269273-d04e-4121-adef-d60556cbf79f)
 ![scatter-EEHGW](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/d7965a88-3e84-46ff-aca3-11f414d2d489)
 
-<div align="justify"> The latest album, _My Big Day_, breaks that pattern: It is the most joyful, upbeat album according to Spotify and the most concise one in terms of the emotions conveyed! Yet again, I don’t agree with all of it. Look at where _Meditate_ and _Turn the World on_ are placed: I would say that _Meditate_ sounds both more energetic and less positive than _Turn The World On_, which would put it into the top left quarter of the graph, above and left to _TTWO_ on. And _I Want To Be Your Only Pet_ is placed right in terms of energy, – it’s an absolute banger! – but does it sound more positive than _Heaven_!? Or _Home By Now_? Or, dare I say, _Shuffle_!? No!  </div>
+The latest album, _My Big Day_, breaks that pattern: It is the most joyful, upbeat album according to Spotify and the most concise one in terms of the emotions conveyed! Yet again, I don’t agree with all of it. Look at where _Meditate_ and _Turn the World on_ are placed: I would say that _Meditate_ sounds both more energetic and less positive than _Turn The World On_, which would put it into the top left quarter of the graph, above and left to _TTWO_ on. And _I Want To Be Your Only Pet_ is placed right in terms of energy, – it’s an absolute banger! – but does it sound more positive than _Heaven_!? Or _Home By Now_? Or, dare I say, _Shuffle_!? No! 
 
 ![scatter-MBD](https://github.com/crablane/bombay-bicycle-club-spotifyr/assets/159540127/7442eed4-2443-42c8-8f1b-c3612f1182c8)
 
@@ -54,7 +55,7 @@ Finally, let’s plot all songs in one graph, coloured by the album they are on:
 <div align="justify"> Pretty! But given the misplacements mentioned above (and based on your favourite Bombay Bicycle Club album you might find other oddities that stand out to you) pretty uninformative if you really wanted to know how a song or an album sounds, right? I guess there’s just one way to find that out: give it a listen, it’s worth it, I promise! </div>
 
 ## Limitations & Conclusion
-<div align="justify"> The biggest limitation of the analysis is that we don’t know what’s behind the measures, especially the measurement of valence. What exactly makes a song sound positive or negative according to Spotify? And if it clashes with the opinion of a self-proclaimed expert on all things Bombay Bicycle Club, me, is it a valid measure for valence at all? The answers to these questions may not have a big real-life impact, but as far as I am concerned, I don’t want Spotify to play me _To The Bone_ rather than _Shuffle_ when I need to be hyped up for an interview or something! So bottom line: Do make your own playlists! </div>
+The biggest limitation of the analysis is that we don’t know what’s behind the measures, especially the measurement of valence. What exactly makes a song sound positive or negative according to Spotify? And if it clashes with the opinion of a self-proclaimed expert on all things Bombay Bicycle Club, me, is it a valid measure for valence at all? The answers to these questions may not have a big real-life impact, but as far as I am concerned, I don’t want Spotify to play me _To The Bone_ rather than _Shuffle_ when I need to be hyped up for an interview or something! So bottom line: Do make your own playlists!
 
 Besides my disagreement with the measurement, this was a fun project and I might do some more stuff with the data! Hope you enjoyed.
 
